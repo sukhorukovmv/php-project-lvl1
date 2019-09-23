@@ -1,0 +1,22 @@
+{
+    "name": "sukhorukovmv/php-project-lvl1",
+    "authors": [
+        {
+            "name": "Sukhorukov Maksim",
+            "email": "sukhorukov.mv@reliab.tech"
+        }
+    ],
+    "description": "My first php project",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "files": [
+            "bin/brain-games"
+        ]
+            
+    },
+    "bin": ["bin/brain-games"],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    }
+}
