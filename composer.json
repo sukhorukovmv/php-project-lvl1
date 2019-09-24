@@ -13,9 +13,10 @@
         "files": [
             "bin/brain-games"
         ]
-            
     },
-    "bin": ["bin/brain-games"],
+    "bin": [
+        "bin/brain-games"
+    ],
     "require-dev": {
         "squizlabs/php_codesniffer": "*"
     }
