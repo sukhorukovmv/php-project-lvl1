@@ -1,3 +1,5 @@
-language: php
-php:
-    - 7.2.22
+deploy:
+  - provider: script
+    script: bash make lint
+    on:
+      branch: master
