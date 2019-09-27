@@ -1,9 +1,16 @@
 language: php
-sudo: required
 
 php:
 	- 7.22.2
 
+notifications:
+  email:
+    recipients:
+      - sukhorukov.maksim95@gmail.com
+
+before_install:
+  - chmod +x build.sh
+
 script:
-	- do something
-	- do something else
+	- ./build.sh
+
