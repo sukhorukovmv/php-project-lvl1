@@ -1,6 +1,6 @@
 language: php
 php:
-  - 7.22.2
+  - 7.2.22
 notifications:
   email:
     recipients:
