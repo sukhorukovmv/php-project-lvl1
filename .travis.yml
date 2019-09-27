@@ -1,6 +1,6 @@
 language: php
 php:
 	- 7.22.2
-script:
+before_install:
   - make install
   - make lint
