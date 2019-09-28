@@ -1,5 +1,5 @@
 ### Status
-[![Build Status](https://travis-ci.org/sukhorukovmv/php-project-lvl1.svg?branch=master.png)](https://travis-ci.org/simkimsia/UtilityBehaviors)
+[![Build Status](https://travis-ci.org/sukhorukovmv/php-project-lvl1.png)](https://travis-ci.org/sukhorukovmv/php-project-lvl1)
 
 ### Install
 1. clone repository
