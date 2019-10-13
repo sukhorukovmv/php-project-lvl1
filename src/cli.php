@@ -1,13 +1,58 @@
 <?php
-
 namespace BrainGames\Cli;
 
 use function \cli\line;
 use function \cli\prompt;
+use function \BrainGames\Controller\runBrainEven;
 
 function run()
 {
-    line('Welcome to the Brain Game!');
+    viewGreeting();
+    runBrainEven();
+}
+
+function viewGreeting()
+{
+    line('Welcome to the Brain Games!');
+}
+
+function viewRuleBrainEven()
+{
+    line('Answer "yes" if the number is even, otherwise answer "no".');
+}
+
+function getName()
+{
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
+    return $name;
+}
+
+function getAnswer()
+{
+    $answer = prompt('Your answer');
+    return $answer == "yes" ? true : false;
+}
+
+function askQuestion($randomNumber)
+{
+    line("Question: %s", $randomNumber);
+}
+
+function viewCongratulations($name)
+{
+    line("Congratulations, %s!", $name);
+}
+
+function viewCorrectAnswer()
+{
+    line("Correct!");
+}
+
+function viewWrongAnswer($name, $answer)
+{
+    $correctAnswer = $answer == true ? "no" : "yes";
+    $answer = $answer == true ? "yes" : "no";
+    line("'$answer' is wrong answer ;(. Correct answer was '$correctAnswer'.");
+    line("Let's try again, %s!)", $name);
 }
