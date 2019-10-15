@@ -14,9 +14,9 @@ function checkEven($num)
 {
     $divisor = 2;
     if ($num % $divisor == 0) {
-        return true;
+        return "yes";
     } else {
-        return false;
+        return "no";
     }
 }
 
@@ -31,14 +31,20 @@ function runBrainEven()
 
         askQuestion($randomNumber);
 
-        $answer = getAnswer();
+        $answer = getAnswer(); 
+        $correctAnswer = checkEven($randomNumber);
 
-        if (checkEven($randomNumber) == $answer) {
-            $count--;
-            viewCorrectAnswer();
+        if ($answer === "yes" || $answer === "no") {
+            if ($correctAnswer === $answer) {
+                $count--;
+                viewCorrectAnswer();
+            } else {
+                viewWrongAnswer($name, $answer, $correctAnswer);
+            }
         } else {
-            viewWrongAnswer($name, $answer);
+            viewWrongAnswer($name, $answer, $correctAnswer);
         }
+
     } while ($count > 0);
     viewCongratulations($name);
 }

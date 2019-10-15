@@ -30,8 +30,7 @@ function getName()
 
 function getAnswer()
 {
-    $answer = prompt('Your answer');
-    return $answer == "yes" ? true : false;
+    return prompt('Your answer');
 }
 
 function askQuestion($randomNumber)
@@ -49,10 +48,8 @@ function viewCorrectAnswer()
     line("Correct!");
 }
 
-function viewWrongAnswer($name, $answer)
+function viewWrongAnswer($name, $answer, $correctAnswer)
 {
-    $correctAnswer = $answer == true ? "no" : "yes";
-    $answer = $answer == true ? "yes" : "no";
     line("'$answer' is wrong answer ;(. Correct answer was '$correctAnswer'.");
     line("Let's try again, %s!)", $name);
 }
