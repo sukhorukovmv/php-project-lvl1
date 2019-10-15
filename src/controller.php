@@ -31,7 +31,7 @@ function runBrainEven()
 
         askQuestion($randomNumber);
 
-        $answer = getAnswer(); 
+        $answer = getAnswer();
         $correctAnswer = checkEven($randomNumber);
 
         if ($answer === "yes" || $answer === "no") {
@@ -44,7 +44,6 @@ function runBrainEven()
         } else {
             viewWrongAnswer($name, $answer, $correctAnswer);
         }
-
     } while ($count > 0);
     viewCongratulations($name);
 }
