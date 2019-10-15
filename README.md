@@ -7,6 +7,5 @@
 1. clone repository
 1. `make install`
 
-
-
-https://asciinema.org/a/nFLyk6m63kYgT84GWi2eMqGwG
+### Example of work "Brain-even"
+[![asciicast](https://asciinema.org/a/nFLyk6m63kYgT84GWi2eMqGwG.svg)](https://asciinema.org/a/nFLyk6m63kYgT84GWi2eMqGwG)
