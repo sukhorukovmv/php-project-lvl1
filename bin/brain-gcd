@@ -12,5 +12,6 @@ if (file_exists($autoloadPath1)) {
     require_once $autoloadPath2;
 }
 
-runGame();
+//print_r("hello\n");
+run();
 
