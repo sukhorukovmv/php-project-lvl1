@@ -9,3 +9,6 @@
 
 ### Example of work "Brain-even"
 [![asciicast](https://asciinema.org/a/nFLyk6m63kYgT84GWi2eMqGwG.svg)](https://asciinema.org/a/nFLyk6m63kYgT84GWi2eMqGwG)
+
+### Example of work "Brain-calc"
+[![asciicast](https://asciinema.org/a/iJnuapd9KgieJYHttEhzO4pgE.svg)](https://asciinema.org/a/iJnuapd9KgieJYHttEhzO4pgE)
