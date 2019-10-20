@@ -14,7 +14,9 @@
     "autoload": {
         "files": [
             "src/cli.php",
-            "src/controller.php"
+            "src/engine.php",
+            "src/games/brain-even.php",
+            "src/games/brain-calc.php"
         ]
     },
 	"scripts": {
@@ -22,7 +24,8 @@
 	},
     "bin": [
         "bin/brain-games",
-        "bin/brain-even"
+        "bin/brain-even",
+        "bin/brain-calc"
     ],
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.4"
