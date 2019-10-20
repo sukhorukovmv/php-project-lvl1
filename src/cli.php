@@ -3,13 +3,6 @@ namespace BrainGames\Cli;
 
 use function \cli\line;
 use function \cli\prompt;
-use function \BrainGames\Controller\runBrainEven;
-
-function run()
-{
-    viewGreeting();
-    runBrainEven();
-}
 
 function viewGreeting()
 {
@@ -19,6 +12,16 @@ function viewGreeting()
 function viewRuleBrainEven()
 {
     line('Answer "yes" if the number is even, otherwise answer "no".');
+}
+
+function viewRuleBrainCalc()
+{
+    line('What is the result of the expression?');
+}
+
+function viewRules($str)
+{
+    line($str);
 }
 
 function getName()
