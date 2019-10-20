@@ -12,3 +12,6 @@
 
 ### Example of work "Brain-calc"
 [![asciicast](https://asciinema.org/a/iJnuapd9KgieJYHttEhzO4pgE.svg)](https://asciinema.org/a/iJnuapd9KgieJYHttEhzO4pgE)
+
+### Example of work "Brain-gcd"
+[![asciicast](https://asciinema.org/a/VBMsJu9W046fjFU1GvqTtVt6B.svg)](https://asciinema.org/a/VBMsJu9W046fjFU1GvqTtVt6B)
