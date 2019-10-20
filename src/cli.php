@@ -19,6 +19,11 @@ function viewRuleBrainCalc()
     line('What is the result of the expression?');
 }
 
+function viewRuleBrainGcd()
+{
+    line('Find the greatest common divisor of given numbers.');
+}
+
 function viewRules($str)
 {
     line($str);
