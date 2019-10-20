@@ -27,6 +27,6 @@ function getCorrectAnswerBranEven()
 function runBrainEven()
 {
     $getCorrect = '\BrainGames\Games\getCorrectAnswerBranEven';
-    $viewRules = '\BrainGames\Cli\viewRuleBrainEven'; 
+    $viewRules = '\BrainGames\Cli\viewRuleBrainEven';
     runGame($getCorrect, $viewRules);
 }

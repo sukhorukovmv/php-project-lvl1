@@ -12,6 +12,5 @@ if (file_exists($autoloadPath1)) {
     require_once $autoloadPath2;
 }
 
-//print_r("hello\n");
-run();
+runBrainGcd();
 

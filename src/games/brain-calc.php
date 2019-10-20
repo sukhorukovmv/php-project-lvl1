@@ -19,18 +19,18 @@ function getCorrectAnswerBrainCalc()
     askQuestion($question);
 
     switch ($randoperator) {
-    case "+":
-        $correctAnswer = $rand1 + $rand2;
-        break;
-    case "-":
-        $correctAnswer = $rand1 - $rand2;
-        break;
-    case "*":
-        $correctAnswer = $rand1 * $rand2;
-        break;
-    case "/":
-        $correctAnswer = $rand1 / $rand2;
-        break;
+        case "+":
+            $correctAnswer = $rand1 + $rand2;
+            break;
+        case "-":
+            $correctAnswer = $rand1 - $rand2;
+            break;
+        case "*":
+            $correctAnswer = $rand1 * $rand2;
+            break;
+        case "/":
+            $correctAnswer = $rand1 / $rand2;
+            break;
     }
 
     return strval($correctAnswer);
@@ -39,6 +39,6 @@ function getCorrectAnswerBrainCalc()
 function runBrainCalc()
 {
     $getCorrect = '\BrainGames\Games\getCorrectAnswerBrainCalc';
-    $viewRules = '\BrainGames\Cli\viewRuleBrainCalc'; 
+    $viewRules = '\BrainGames\Cli\viewRuleBrainCalc';
     runGame($getCorrect, $viewRules);
 }

@@ -9,7 +9,7 @@ use function \BrainGames\Cli\viewWrongAnswer;
 use function \BrainGames\Cli\viewCongratulations;
 use function \BrainGames\Cli\viewGreeting;
 
-function runGame($getCorrect, $viewRules) 
+function runGame($getCorrect, $viewRules)
 {
     viewGreeting();
     $viewRules();
