@@ -24,6 +24,11 @@ function viewRuleBrainGcd()
     line('Find the greatest common divisor of given numbers.');
 }
 
+function viewRuleBrainProgression()
+{
+    line('What number is missing in the progression?');
+}
+
 function viewRules($str)
 {
     line($str);
