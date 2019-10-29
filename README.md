@@ -18,3 +18,6 @@
 
 ### Example of work "Brain-progression"
 [![asciicast](https://asciinema.org/a/SddjUnE4rzcGHQjvZFEjdyLWK.svg)](https://asciinema.org/a/SddjUnE4rzcGHQjvZFEjdyLWK)
+
+### Example of work "Brain-prime"
+[![asciicast](https://asciinema.org/a/wlCgARptN5ohCdueIITp6JTVj.svg)](https://asciinema.org/a/wlCgARptN5ohCdueIITp6JTVj)
