@@ -15,3 +15,6 @@
 
 ### Example of work "Brain-gcd"
 [![asciicast](https://asciinema.org/a/VBMsJu9W046fjFU1GvqTtVt6B.svg)](https://asciinema.org/a/VBMsJu9W046fjFU1GvqTtVt6B)
+
+### Example of work "Brain-progression"
+[![asciicast](https://asciinema.org/a/SddjUnE4rzcGHQjvZFEjdyLWK.svg)](https://asciinema.org/a/SddjUnE4rzcGHQjvZFEjdyLWK)
