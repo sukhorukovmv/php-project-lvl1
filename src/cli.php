@@ -30,6 +30,11 @@ function viewRuleBrainProgression()
     line('What number is missing in the progression?');
 }
 
+function viewRuleBrainPrime()
+{
+    line('Answer "yes" if given number is prime. Otherwise answer "no".');
+}
+
 function viewRules($str)
 {
     line($str);
