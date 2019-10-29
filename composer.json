@@ -18,11 +18,12 @@
             "src/games/brain-even.php",
             "src/games/brain-calc.php",
             "src/games/brain-gcd.php",
-            "src/games/brain-progression"
+            "src/games/brain-progression.php"
         ]
     },
 	"scripts": {
-		"phpcs": "phpcs"
+		"phpcs": "phpcs",
+		"phpcbf": "phpcbf"
 	},
     "bin": [
         "bin/brain-games",

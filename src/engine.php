@@ -2,12 +2,12 @@
 
 namespace BrainGames\Engine;
 
-use function \BrainGames\Cli\viewCorrectAnswer;
-use function \BrainGames\Cli\getName;
-use function \BrainGames\Cli\getAnswer;
-use function \BrainGames\Cli\viewWrongAnswer;
-use function \BrainGames\Cli\viewCongratulations;
-use function \BrainGames\Cli\viewGreeting;
+use function BrainGames\Cli\viewCorrectAnswer;
+use function BrainGames\Cli\getName;
+use function BrainGames\Cli\getAnswer;
+use function BrainGames\Cli\viewWrongAnswer;
+use function BrainGames\Cli\viewCongratulations;
+use function BrainGames\Cli\viewGreeting;
 
 function runGame($getCorrect, $viewRules)
 {

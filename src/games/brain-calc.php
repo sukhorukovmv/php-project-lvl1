@@ -2,10 +2,10 @@
 
 namespace BrainGames\Games;
 
-use function \BrainGames\Engine\runGame;
-use function \BrainGames\Cli\viewRules;
-use function \BrainGames\Cli\viewRuleBrainEven;
-use function \BrainGames\Cli\askQuestion;
+use function BrainGames\Engine\runGame;
+use function BrainGames\Cli\viewRules;
+use function BrainGames\Cli\viewRuleBrainEven;
+use function BrainGames\Cli\askQuestion;
 
 function getCorrectAnswerBrainCalc()
 {

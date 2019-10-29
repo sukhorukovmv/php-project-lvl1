@@ -2,10 +2,10 @@
 
 namespace BrainGames\Games;
 
-use function \BrainGames\Engine\runGame;
-use function \BrainGames\Cli\viewRules;
-use function \BrainGames\Cli\viewRuleBrainEven;
-use function \BrainGames\Cli\askQuestion;
+use function BrainGames\Engine\runGame;
+use function BrainGames\Cli\viewRules;
+use function BrainGames\Cli\viewRuleBrainEven;
+use function BrainGames\Cli\askQuestion;
 
 function getCorrectAnswerBrainProgression()
 {
@@ -20,13 +20,13 @@ function getCorrectAnswerBrainProgression()
 
     $randomElement = rand(0, $baseProgression - 1);
     $correctAnswer = $progression[$randomElement];
+    $question = "";
 
     for ($i = 0; $i < $lenghtProgression; $i++) {
         if ($i === $randomElement) {
-            $question . ".. ";
-        }
-        else {
-            $question . $progression[$i] . " ";
+            $question .= ".. ";
+        } else {
+            $question .= $progression[$i] . " ";
         }
     }
     
